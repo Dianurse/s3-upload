@@ -1,0 +1,9 @@
+name: "S3 Sync"
+description: "Sync a directory with AWS S3 directory"
+author: thepowowme
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: refresh-cw
+  color: green
